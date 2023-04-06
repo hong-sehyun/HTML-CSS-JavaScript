@@ -1,0 +1,70 @@
+* {
+
+   margin:0px;
+   padding: 0px ;
+}
+
+nav {
+    height: 60px;
+    background-color: silver;
+    padding: 20px;
+}
+
+nav a {
+    /* 하이퍼링크의 밑줄 제거 */
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover,  nav li:hover {
+    background-color: black;
+    color: aqua;
+}
+
+nav a:active {
+    color: orange
+}
+
+nav li {
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 60;
+
+}
+
+article {
+    background-color: blue;
+    color: aliceblue;
+
+    margin: 20px;
+    
+    padding: 10px;
+}
+
+#a1 > div {
+    border: 2px solid blue;
+    width: 250px
+}
+
+#a2, #a4 {
+    background-color: lavender;
+}
+
+.c3{
+    background-color: olive;
+}
+.c3 > h1 {
+    color: blueviolet;
+}
+
+.c3 li {
+    color: darkslategray;
+}
