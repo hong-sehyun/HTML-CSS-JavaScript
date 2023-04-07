@@ -1,0 +1,20 @@
+.frame {
+    margin: 10PX;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+#sns {
+    margin: 0px 0px 20px 0px;
+}
+
+.info {
+    display: flex;
+}
+
+.info div {
+    width: 30%;
+}
+
+#Language {
+    width: 20px;
+}
