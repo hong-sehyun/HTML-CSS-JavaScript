@@ -2,23 +2,26 @@
 
    margin:0px;
    padding: 0px ;
+   
+
+}
+
+header {
+    top : 0px;
+    left : 0px;
+    position: sticky;
 }
 
 nav {
-    height: 60px;
+    height: 20px;
     background-color: silver;
     padding: 20px;
-}
-
-nav a {
-    /* 하이퍼링크의 밑줄 제거 */
-    text-decoration: none;
-    color: white;
+    display: flex;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 nav a:hover,  nav li:hover {
@@ -27,7 +30,7 @@ nav a:hover,  nav li:hover {
 }
 
 nav a:active {
-    color: orange
+    color: orange;
 }
 
 nav li {
@@ -40,13 +43,30 @@ nav li {
 
 }
 
+
 article {
     background-color: blue;
-    color: aliceblue;
+    color: black;
 
     margin: 20px;
     
     padding: 10px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#a1 {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    
+}
+
+#div2 {
+    display: flex;
 }
 
 #a1 > div {
@@ -54,8 +74,21 @@ article {
     width: 250px
 }
 
+#a1 img {
+        width: 150px;
+        border-radius: 50%;
+}
+
+ul {
+    margin: 20px;
+}
+
 #a2, #a4 {
     background-color: lavender;
+}
+
+#div1 {
+    display: flex;
 }
 
 .c3{
