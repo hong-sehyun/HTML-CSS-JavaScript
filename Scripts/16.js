@@ -34,7 +34,7 @@ const show = () => {
 
 
 
-    //     if(user === n) {
+    //     if(user == n) {
     //         document.querySelector(".h2Class").innerHTML =`<img src = "../img/${n}.png">`;
     //         document.querySelector(".h3Class").innerHTML = "일치";
 
