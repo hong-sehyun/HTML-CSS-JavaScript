@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     d1.textContent = sel1.value;
     d2.textContent = sel2.value;
 
-
-    //select 값이 변경이 될때
+ 
+    //select 값이 변경이 될 때
     sel1.addEventListener('change', (event) => {
         d1.textContent = event.target.value;
         t1.value = '';
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    //input에 값이 입력되었을때
+    //input에 값이 입력되었을 때
     t1.addEventListener('input', (event) => {
         console.log(event.target.value);
 
