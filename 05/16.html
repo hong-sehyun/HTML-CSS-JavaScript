@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <script src="../scripts/16.js"></script>
+    <title>dice</title>
+</head>
+
+<body>
+    <main class="container">
+        <article>
+            <header>
+                <h1> 주사위 게임</h1>
+                <div id="hdiv"></div>
+            </header>
+            <h2 id="h2Id" class="h2Class"><img></h2>
+            <h2 class="h3Class"></h2>
+            <footer>
+                <fieldset>
+                    <legend>숫자선택</legend>
+                    <div id="result" class="grid">
+                        <label for="r1">
+                            <input type="radio" id="r1" name="size" value="1">
+                            1
+                        </label>
+                        <label for="r2">
+                            <input type="radio" id="r2" name="size" value="2">
+                            2
+                        </label>
+                        <label for="r3">
+                            <input type="radio" id="r3" name="size" value="3">
+                            3
+                        </label>
+                        <label for="r4">
+                            <input type="radio" id="r4" name="size" value="4">
+                            4 </label>
+                    </div>
+                </fieldset>
+                <form>
+                    <div class="bt">
+                        <button onclick="show();">확인</button>
+                        <button type="reset">취소</button>
+                    </div>
+                </form>
+            </footer>
+        </article>
+    </main>
+</body>
+
+</html>
