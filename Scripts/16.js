@@ -17,10 +17,16 @@ const show = () => {
             break;
         }
     }
-    if (n == user) {
-        document.querySelector("article h1").textContent = '주사위 게임 : 맞음'
 
-    }
+     if (n == user) {
+         document.querySelector("article h1").textContent = '주사위 게임 : 맞음'
+
+     }
+
+    // if (n === parseInt(user)) {
+    //     document.querySelector("article h1").textContent = '주사위 게임 : 맞음'
+
+    // } === 연산자를 이용해서 작동
 
     else {
         document.querySelector("article h1").textContent = '주사위 게임 : 틀림'
