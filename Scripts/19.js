@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             //console.log(arr)
             //t1.value = arr.toString();
-            t1.value = arr.join();
+            t1.value = arr.join(',');
 
         });
     }
