@@ -1,4 +1,4 @@
-# K-Digital 3기 frontend 수업 
+# K-Digital 3기 HTML-CSS-JavaScript
 
 링크 : https://hong-sehyun.github.io/html/
 
