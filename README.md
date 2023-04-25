@@ -2,7 +2,7 @@
 
 링크 : https://hong-sehyun.github.io/html/
 
-### [DAY11] 23.04.18
+### [DAY12] 23.04.18
 * JS 폭탄게임/ 파이어베이스 호스팅
 ### [DAY11] 23.04.17
 * JS 폭탄게임
