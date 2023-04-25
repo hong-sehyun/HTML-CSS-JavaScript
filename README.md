@@ -1,7 +1,13 @@
-# K-Digital 3기 frontend 수업 🌱
+# K-Digital 3기 HTML-CSS-JavaScript
 
 링크 : https://hong-sehyun.github.io/html/
 
+### [DAY12] 23.04.18
+* JS 폭탄게임/ 파이어베이스 호스팅
+### [DAY11] 23.04.17
+* JS 폭탄게임
+### [DAY10] 23.04.14
+* JS 배열 / 과일 이모지 호출 앱 - 바꾸기 기능
 ### [DAY9] 23.04.13
 * JS 배열 / 과일 이모지 호출 앱
 ### [DAY8] 23.04.12
